@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div id='drum-machine'>
         <div id='display'>
-          <div className="drum-pad" id="heater1">
+          <div className="drum-pad" id="heater1" onClick={console.log("hello world")}>
             Q
             <audio src="../public/sounds/Heater-1.mp3" className="clip" id="Q"></audio>
           </div>
